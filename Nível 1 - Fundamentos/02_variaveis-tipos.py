@@ -12,3 +12,12 @@
 print(15 + "água") 
 #TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
+x = 15
+print(type(x))
+#<class 'int'>
+#Pyton enxerga tudo como classes e objetos. 
+
+print(dir(x))
+#O int traz junto metodos que consigo utilizar relacinados à variavel x.
+
+
